@@ -1,0 +1,72 @@
+.header{
+  background: #FFE4C4;
+  margin: -17px 0 0 0;
+  padding: 10px 10px 30px 10px;
+}
+.header__title,
+.section__subtitle,
+.footer__subtitle
+{
+  text-decoration: underline dotted red;
+  text-shadow: 2px 2px 3px #808080;
+  text-transform: uppercase;
+  text-underline-position: under;
+}
+.header__title{
+  font: 600 20pt Courier;
+}
+.header__text,
+.section__text,
+.footer__text{
+  hyphens: auto;
+  text-align: justify;
+  text-indent: 10px;
+}
+.header__button,
+.section__button,
+.footer__button{
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+  font: 700 18pt Courier;
+  margin: 0 auto;
+  opacity: .7;
+  padding: 10px 20px;
+}
+.header__button,
+.footer__button{
+  background: #FFB6C1;
+  color: #A63B4C;
+}
+.header__button:hover,
+.footer__button:hover {
+  box-shadow: 5px 5px 7px 9px #FFC8D1, -5px -5px 10px 9px #FFC8D1;
+  transform: scale(1.2, 0.5);
+  transition: all 0.7s linear;
+}
+.section__button:hover {
+  box-shadow: 5px 5px 7px 9px #CCD6DE, -5px -5px 10px 9px #CCD6DE;
+  transform: scale(1.2, 0.5);
+  transition: all 0.7s linear;
+}
+.section{
+  background: #D9ECFC;
+  margin: -20px 0 0 0;
+  padding: 10px 10px 30px 10px;
+}
+.section__subtitle{
+  font: 600 15pt Courier;
+}
+.section__button{
+  background: #A9B4BD;
+  color: #4779A4;
+}
+.footer{
+  background: #FFE4C4;
+  margin: -22px 0 0 0;
+  padding: 10px 10px 30px 10px;
+}
+.footer__subtitle{
+  font: 600 12pt Courier;
+}
