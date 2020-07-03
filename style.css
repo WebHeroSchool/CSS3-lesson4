@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+body{
+	font-family: 'Nunito', sans-serif;
+}
 .header{
   background: #FFE4C4;
   margin: -17px 0 0 0;
@@ -25,7 +28,6 @@
   hyphens: auto;
   text-align: justify;
   text-indent: 10px;
-  font-family: 'Nunito', sans-serif;
 }
 .header__button,
 .section__button,
@@ -34,7 +36,7 @@
   border-radius: 10px;
   cursor: pointer;
   display: block;
-  font: 700 18pt 'Nunito', sans-serif;
+  font: 700 18pt;
   margin: 0 auto;
   opacity: .7;
   padding: 10px 20px;
