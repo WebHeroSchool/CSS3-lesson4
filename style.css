@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
 .header{
   background: #FFE4C4;
   margin: -17px 0 0 0;
@@ -11,9 +14,10 @@
   text-shadow: 2px 2px 3px #808080;
   text-transform: uppercase;
   text-underline-position: under;
+  font-family: 'Play', sans-serif;
 }
 .header__title{
-  font: 600 20pt Courier;
+  font: 600 20pt;
 }
 .header__text,
 .section__text,
@@ -21,6 +25,7 @@
   hyphens: auto;
   text-align: justify;
   text-indent: 10px;
+  font-family: 'Nunito', sans-serif;
 }
 .header__button,
 .section__button,
@@ -29,7 +34,7 @@
   border-radius: 10px;
   cursor: pointer;
   display: block;
-  font: 700 18pt Courier;
+  font: 700 18pt 'Nunito', sans-serif;
   margin: 0 auto;
   opacity: .7;
   padding: 10px 20px;
@@ -56,7 +61,7 @@
   padding: 10px 10px 30px 10px;
 }
 .section__subtitle{
-  font: 600 15pt Courier;
+  font: 600 15pt;
 }
 .section__button{
   background: #A9B4BD;
@@ -68,5 +73,5 @@
   padding: 10px 10px 30px 10px;
 }
 .footer__subtitle{
-  font: 600 12pt Courier;
+  font: 600 12pt;
 }
